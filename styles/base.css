@@ -28,7 +28,7 @@ footer {
 }
 
 nav {
-    background-color: lightskyblue;
+    background-color: rgb(66, 180, 250);
     font-size: 1.25rem;
 }
 
@@ -75,7 +75,7 @@ h1 {
 }
 
 .parent span {
-    background-color: lightskyblue;
+    background-color: rgb(66, 180, 250);
     color: #fff;
     display: block;
     text-align: center;
