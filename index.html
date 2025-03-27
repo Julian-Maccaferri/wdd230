@@ -38,11 +38,12 @@
         <p><b>Julian Maccaferri</b></p>
     </header>
     <nav>
-        <ul>
-            <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="#">Chamber</a></li>
-            <li class="active"><a href="week01/chamber-site-plan.html">Site plan</a></li>
-            <li><a href="week02/design.html">Design</a></li>
+        <button id="navButton"></button>
+        <ul class="menuLinks">
+            <li class="active" title="Home"><a href="index.html">Home</a></li>
+            <li><a href="#" title="chamber">Chamber</a></li>
+            <li title="site-plan"><a href="week01/chamber-site-plan.html">Site plan</a></li>
+            <li><a href="week02/design.html" title="design">Design</a></li>
         </ul>
     </nav>
     <main>
@@ -103,6 +104,7 @@
         <p id="lastModified">Last Modification: </p>
     </footer>
     <script src="scripts/getDates.js" defer></script>
+    <script src="scripts/hamburguerButton.js" defer></script>
 </body>
 
 </html>

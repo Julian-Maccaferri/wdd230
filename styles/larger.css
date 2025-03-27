@@ -1,6 +1,11 @@
 @media only screen and (min-width: 37.5rem) {
 
-    nav ul {
+    #navButton {
+        display: none;
+    }
+
+    ul.menuLinks,
+    ul.menuLinks.open {
         display: flex;
         justify-content: space-around;
     }
