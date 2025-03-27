@@ -28,7 +28,7 @@ footer {
 }
 
 nav {
-    background-color: rgb(66, 180, 250);
+    background-color: #1470c0;
     font-size: 1.25rem;
 }
 
@@ -75,7 +75,7 @@ h1 {
 }
 
 .parent span {
-    background-color: rgb(66, 180, 250);
+    background-color: #1470c0;
     color: #fff;
     display: block;
     text-align: center;
