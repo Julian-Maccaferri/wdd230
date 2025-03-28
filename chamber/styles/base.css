@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+header,
+footer {
+    display: flex;
+    background-color: darkblue;
+    color: white;
+    padding: 1rem;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header {
+    font-size: 1.5rem;
+}
+
+footer {
+    display: block;
+    margin-top: 1rem;
+    font-size: 0.75rem;
+}
+
+nav {
+    background-color: #1470c0;
+    font-size: 1.25rem;
+}
+
+#navButton {
+    font-size: 2rem;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    width: 100%;
+    text-align: right;
+    padding: .25rem 2vw;
+}
+
+#navButton::before {
+    content: '☰';
+    /* Default hamburger icon */
+    font-size: 2rem;
+    color: white;
+}
+
+#navButton.open::before {
+    content: '✖';
+    /* X icon when open */
+    font-size: 2rem;
+    color: white;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* CSS for the mobile menu */
+ul.menuLinks {
+    display: none;
+}
+
+ul.menuLinks.open {
+    display: block;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding: .5rem 2vw;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2)
+}
+
+nav .active {
+    background-color: rgba(0, 0, 0, 0.3)
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+    margin: auto;
+}
+
+h1 {
+    margin: 1rem 0;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0.5rem auto;
+}
+
+.cta {
+    background-color: #1470c0;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: 2rem 0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.cta p {
+    font-size: 1.25rem;
+    margin-bottom: 1.5rem;
+}
+
+.cta-button {
+    display: inline-block;
+    background-color: white;
+    /* Accent color */
+    color: #1470c0;
+    font-size: 1.5rem;
+    padding: 0.75rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    color: #247b7b;
+}
+
+.information {
+    margin: 1rem 2vw;
+}
+
+.information section {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 1rem 0;
+}
+
+.information span {
+    background-color: #1470c0;
+    color: #fff;
+    display: block;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.information ul {
+    padding: 10px;
+}
+
+.information p {
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.advertisement {
+    margin: 1rem 2vw;
+}
+
+.advertisement .card {
+    border: 1px solid #ccc;
+    background-color: #fff;
+    overflow: hidden;
+    margin: 1rem 0;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+section ul {
+    display: flex;
+}
+
+section ul a {
+    padding: 0 2.5px;
+}
+
+.card span {
+    font-size: 1.5rem;
+}
+
+h4 {
+    margin: 0.25rem 0;
+}
