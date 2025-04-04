@@ -24,6 +24,8 @@
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="styles/discover.css">
+    <link rel="stylesheet" href="styles/discover-large.css">
 </head>
 
 <body>
@@ -44,68 +46,46 @@
             <li><a href="#">About</a></li>
             <li><a href="#">Events</a></li>
             <li><a href="#">News</a></li>
-            <li title="discover"><a href="discover.html">Discover</a></li>
+            <li><a href="#">Members</a></li>
             <li title="site-plan"><a href="week01/chamber-site-plan.html">Site plan</a></li>
             <li><a href="#">JOIN</a></li>
         </ul>
     </nav>
 
     <main>
-        <div class="hero">
-            <h1>Welcome to the Rosario Chamber of Commerce</h1>
-            <p>Empowering local businesses and fostering growth in Rosario.</p>
-            <picture>
-                <source srcset="images/chamber-hero-image.webp" type="image/webp">
-                <img src="images/chamber-hero-image.jpg" alt="Rosario Chamber of Commerce" width="1000" height="500"
-                    loading="lazy">
-            </picture>
-            <section class="cta">
-                <p>Become a part of a thriving business community and unlock exclusive benefits, networking
-                    opportunities,
-                    and resources to grow your business.</p>
-                <a href="#" class="cta-button">Join Today!</a>
+        <div class="content-container">
+            <aside class="sidebar">
+                <section>
+                    <h2>Last News</h2>
+                    <p>
+                        <strong>New Member Spotlight:</strong> Welcome to our newest member, <em>ABC Corp</em>! We are
+                        excited to have you on board.                        
+                    </p>
+                </section>
+                <section>
+                    <h2>Welcome Back!</h2>
+                    <p id="visitMessage"></p>
+                </section>
+                <section>
+                    <h2>Upcoming Events</h2>
+                    <ul>
+                        <li><strong>April 10:</strong> Business Networking Night</li>
+                        <li><strong>April 15:</strong> Workshop: Marketing Strategies</li>
+                        <li><strong>April 20:</strong> Annual Member Meeting</li>
+                    </ul>
+                </section>
+            </aside>
+            <section class="main-content">
+                <h1>Checkout our latest pictures!</h1>
+                <div class="image-gallery">
+                    <img src="images/chamber-1.webp" alt="chamber of commerce picture 1" width="300" height="200" loading="lazy">
+                    <img src="images/chamber-2.webp" alt="chamber of commerce picture 2" width="300" height="200" loading="lazy">
+                    <img src="images/chamber-3.webp" alt="chamber of commerce picture 3" width="300" height="200" loading="lazy">
+                    <img src="images/chamber-4.webp" alt="chamber of commerce picture 4" width="300" height="200" loading="lazy">
+                    <img src="images/chamber-5.webp" alt="chamber of commerce picture 5" width="300" height="200" loading="lazy">
+                    <img src="images/chamber-6.webp" alt="chamber of commerce picture 6" width="300" height="200" loading="lazy">
+                </div>
             </section>
-        </div>
-
-        <div class="information">
-            <section class="card">
-                <span>Current Events</span>
-                <p><b>Lorem ipsum dolum</b></p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-                    reprehenderit
-                    in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-            </section>
-
-            <section class="card">
-                <span>Weather</span>
-                <p>Rosario, Argentina</p>
-                <p>27 ºC - Sunshine</p>
-                <p>Humidity: 37%</p>
-                <p>Wind Chill: N/A</p>
-            </section>
-        </div>
-        <div class="advertisement">
-            <section class="card">
-                <span>Publicity agency</span>
-                <h4>Lorem ipsum dolum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-            </section>
-            <section class="card">
-                <span>Code with me!</span>
-                <h4>Lorem ipsum dolum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </section>
-            <section class="card">
-                <span>Box office</span>
-                <h4>Lorem ipsum dolum</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-            </section>
-
         </div>
     </main>
 
@@ -117,6 +97,7 @@
     </footer>
     <script src="../scripts/getDates.js" defer></script>
     <script src="../scripts/hamburguerButton.js" defer></script>
+    <script src="../scripts/visitMessage.js" defer></script>
 
 </body>
 
