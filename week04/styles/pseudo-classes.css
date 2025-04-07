@@ -1,0 +1,81 @@
+:root {
+    --border: 1px solid #777;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    margin: .75rem;
+}
+
+main {
+    margin: .5rem;
+    border: 1px solid rgb(0 0 0 / 0.1);
+    padding: 0.5rem;
+    background-color: #eee;
+}
+
+p {
+    margin: 1rem;
+}
+
+.datatable {
+    width: 200px;
+    margin-top: 2rem;
+    border: var(--border);
+    /* Single border for the table */
+
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 100px 100px;
+    align-items: center;
+    text-align: center;
+
+}
+
+.row:last-child {
+    background-color: darkgrey;
+}
+
+.col {
+    padding: 0.5rem;
+    border: var(--border);
+}
+
+a:link {
+    color: blue;
+    /* Default color for unvisited links */
+}
+
+a:visited {
+    color: blueviolet;
+    /* Color for visited links */
+}
+
+a:hover {
+    color: purple;
+    /* Color when hovering over the link */
+    text-decoration: underline;
+    /* Optional: Add underline on hover */
+}
+
+a:active {
+    color: navy;
+    /* Color when the link is clicked */
+    background-color: rgba(0, 0, 128, 0.1);
+    /* Optional: Add a background color */
+}
