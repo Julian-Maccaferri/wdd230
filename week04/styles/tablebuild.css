@@ -1,0 +1,63 @@
+:root {
+	--back: hsla(150, 50%, 30%, 1);
+    --back2: hsla(150, 50%, 30%, .5);
+    --foredark: hsla(0,0%,10%,1);
+	--forelight: hsla(0,0%,100%,1);
+	--border: hsla(0,0%,20%,.8);
+	--borderlight: hsla(0,0%,33%,.3);
+	--shadow: hsl(0,0%,50%);
+	--zebra: hsl(0, 0%, 93%, 1);
+}
+
+body {
+    font-family: "Roboto", Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+table {
+	margin: 10px auto;
+	border: thin solid var(--border);
+	box-shadow: 0 0 10px var(--shadow);
+	border-collapse: collapse;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+    color: var(--back);
+    font-size: .85rem;
+  }
+
+  th {
+    background-color: var(--back);
+    color: var(--forelight);
+    padding: 10px;
+    text-align: center;
+    font-size: 1.2rem;
+    border-bottom: thin solid var(--borderlight);
+  }
+
+  tbody {
+    background-color: var(--zebra);
+  }
+
+  tbody th {
+    background-color: var(--back2);
+    color: var(--forelight);
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+    border-bottom: thin solid var(--borderlight);
+  }
+
+  tr:nth-child(even) {
+    background-color: hsla(150, 50%, 30%, .25);
+  }
+
+  tr td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: thin solid var(--borderlight);
+  }
