@@ -1,5 +1,5 @@
 :root {
-    --max-width: 400px  ;
+    --max-width: 400px;
     --common-border: 1px solid #ccc;
     --common-border-radius: 6px;
 }
@@ -54,9 +54,9 @@ datalist {
     justify-content: space-evenly;
     writing-mode: horizontal-tb;
     width: 200px;
-  }
+}
 
-  input[type="submit"] {
+input[type="submit"] {
     background-image: linear-gradient(to bottom, #5999ec, #1648ee);
     color: #fff;
     border: none;
@@ -67,4 +67,15 @@ datalist {
     border-radius: var(--common-border-radius);
     cursor: pointer;
     margin: 1rem 2% 2rem 2%;
+}
+
+textarea {
+    display: block;
+    width: 96%;
+    max-width: var(--max-width);
+    min-height: 150px;
+    padding: 0.5rem;
+    border: var(--common-border);
+    border-radius: var(--common-border-radius);
+    font-size: 0.75rem;
 }
