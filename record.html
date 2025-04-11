@@ -48,48 +48,15 @@
             <li><a href="week02/design.html" title="design">Design</a></li>
         </ul>
     </nav>
+
     <main>
-        <h1>Form Application</h1>
-        <form method="get" action="record.html">
-            <fieldset>
-                <legend>User Data:</legend>
-                <label>User Name*<input type="text" name="fname" id="firstName" required></label>
-                <label>Password*<input type="password" name="pass" id="pass" pattern="[A-Za-z0-9]{8,}" title="Alphanumeric at least 8 characters" required></label>
-                <label>Repeat Password*<input type="password" name="conpass" id="passConfirm" pattern="[A-Za-z0-9]{8,}" title="Repeat password" required></label>
-                <span id="errorMsg" style="color: red;"></span>
-                <label>Email <input type="email" name="email" id="email" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$" title="Please enter a valid email address"></label>
-            </fieldset>
-            <fieldset>
-                <legend>Page Rating:</legend>
-                <div>Rate:<span id="rangevalue">0</span></div>
-                <label><input type="range" name="rating" min="1" max="10" list="points" id="rating"></label>
-                <datalist id="points">
-                    <option value="1" label="1"></option>
-                    <option value="2" label="2"></option>
-                    <option value="3" label="3"></option>
-                    <option value="4" label="4"></option>
-                    <option value="5" label="5"></option>
-                    <option value="6" label="6"></option>
-                    <option value="7" label="7"></option>
-                    <option value="8" label="8"></option>
-                    <option value="9" label="9"></option>
-                    <option value="10" label="10"></option>
-                  </datalist>
-            </fieldset>
-            <input type="submit" value="Send rating">
-        </form>
+        <h1>Rating Page Application</h1>
+        <p>Thanks for submiting your opinion</p>        
     </main>
-    
+
     <footer>
         <p>&copy;Julian Maccaferri - Rosario, Argentina</p>
         <p id="lastModified">Last Modification: </p>
     </footer>
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/hamburguerButton.js" defer></script>
-    <script src="scripts/validatePassword.js" defer></script>
-    <script src="scripts/displayRating.js"defer></script>
-
-
-</body>
-
-</html>
