@@ -1,0 +1,27 @@
+{
+    "familyName": "Smith",
+    "membersQuantity": 4,
+    "dateIntoWard": "2023-10-01",
+    "visited": true,
+    "members": [ {
+        "name": "John Smith",
+        "gender": "Male",
+        "birthdate": "1980-01-01"
+        },
+        {
+            "name": "Anna Smith",
+            "gender": "Female",
+            "birthdate": "1985-05-15"
+        },
+        {
+            "name": "Eric Smith",
+            "gender": "Male",
+            "birthdate": "2010-03-20"
+        },
+        {
+            "name": "Lucy Smith",
+            "gender": "Female",
+            "birthdate": "2012-07-30"
+        }
+    ]
+}
