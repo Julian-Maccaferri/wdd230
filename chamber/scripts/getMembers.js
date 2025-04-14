@@ -1,4 +1,4 @@
-const membersURL = 'data/members.json';
+const membersURL = 'https://github.com/Julian-Maccaferri/wdd230/blob/main/chamber/data/members.json'; // Path to the JSON file
 const cards = document.querySelector('#cards');
 
 async function getJsonMembers() {
