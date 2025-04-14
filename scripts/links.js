@@ -18,7 +18,7 @@ const displayLinks = (weeks) => {
         week.links.forEach((item) => {
             let linkItem = document.createElement("li");
             let link = document.createElement("a"); // Create an <a> element for the link
-            link.href = item.link; // Set the href attribute for the link
+            link.href = item.url; // Set the href attribute for the link
             link.textContent = item.title; // Set the text content for the link
             linkItem.appendChild(link); // Append the <a> to the link <li>
             weekList.appendChild(linkItem); // Append the link item to the week list
