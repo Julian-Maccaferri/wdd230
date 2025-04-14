@@ -1,0 +1,13 @@
+@media only screen and (min-width: 50rem) {
+  /* Larger screens */
+  #cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    align-items: center;
+  }
+
+  #cards section {
+    visibility: visible;
+  }
+}
