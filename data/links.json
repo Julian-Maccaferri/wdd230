@@ -22,11 +22,11 @@
             "week": "week 3",
             "links": [
                 {
-                    "url": "week03/lazyload.html",
+                    "url": "https://julian-maccaferri.github.io/wdd230/week03/images/landscape.webp",
                     "title": "Lazyload Image Property"
                 },
                 {
-                    "url": "week03/responsive-images.html",
+                    "url": "https://julian-maccaferri.github.io/wdd230/week03/lazyload.html",
                     "title": "Responsive Images Practice"
                 }
             ]

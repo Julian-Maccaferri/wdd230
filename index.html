@@ -59,50 +59,16 @@
         <div class="parent">
             <section class="card">
                 <span>Learning Activities</span>
-                <ul>
-                    <li>Week 01:</li>
-                    <li><a href="">Layout</a>|</li>
-                    <li><a href="">Media Query</a>|</li>
-                    <li><a href="">JS Pen</a></li>
-                </ul>
-                <ul>
-                    <li>Week 02:</li>
-                    <li><a href="week02/design.html"></a>Design</li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
-                <ul>
-                    <li>Week 03:</li>
-                    <li><a href="week03/images/landscape.webp">WebP</a></li>
-                    <li><a href="week03/lazyload.html">Lazyload</a></li>
-                    <li><a href=""></a></li>
-                </ul>
-                <ul>
-                    <li>Week 04:</li>
-                    <li><a href="week04/Form-start/index.html"></a>Forms</li>
-                    <li><a href="week04/images/combinators.jpg" target="_blank">Combinators</a></li>
-                    <li><a href="week04/tablebuild.html">Table Build</a></li>
-                </ul>
-                <ul>
-                    <li>Week 05:</li>
-                    <li><a href="week05/new-ward-members.json">JSON</a></li>
-                    <li><a href="week05/prophets.html">Fetch API</a></li>
-                    <li><a href="week05/weather.html">Weather</a></li>
-                </ul>
-                <ul>
-                    <li>Week 06:</li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                </ul>
-
             </section>
 
             <section class="card">
                 <span>Information</span>
-                <p>Rosario, Argentina</p>
-                <p>27 ºC - Sunshine</p>
-                <p>Page Visits: <span id="visitCount">0</span></p>
+                <p id="current-temp"></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="Weather icon" width="50" height="50" loading="lazy">
+                    <figcaption></figcaption>
+                </figure>
+                <p id="visitCount"></p>
             </section>
         </div>
 
@@ -118,6 +84,8 @@
     <script src="scripts/getDates.js" defer></script>
     <script src="scripts/hamburguerButton.js" defer></script>
     <script src="scripts/visitCounter.js" defer></script>
+    <script src="scripts/localWeather.js" defer></script>
+    <script src="scripts/links.js" defer></script>
 </body>
 
 </html>

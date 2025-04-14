@@ -13,4 +13,4 @@ visitCount++;
 localStorage.setItem('pageVisitCount', visitCount);
 
 // Display the visit count in the "visitCount" span
-document.getElementById('visitCount').textContent = visitCount;
+document.getElementById('visitCount').textContent = `Page views: ${visitCount}`;
