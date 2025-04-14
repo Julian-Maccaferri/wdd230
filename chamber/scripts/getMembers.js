@@ -1,11 +1,11 @@
-const membersURL = 'https://github.com/Julian-Maccaferri/wdd230/blob/main/chamber/data/members.json'; // Path to the JSON file
+const membersURL = 'https://raw.githubusercontent.com/Julian-Maccaferri/wdd230/refs/heads/main/chamber/data/members.json'; // Path to the JSON file
 const cards = document.querySelector('#cards');
 
 async function getJsonMembers() {
     const response = await fetch(membersURL);
     const data = await response.json();
     console.log(data); // For test only
-    displayMembers(data.members);
+    displayMembers(data.company);
 }
 
 const displayMembers = (members) => {
