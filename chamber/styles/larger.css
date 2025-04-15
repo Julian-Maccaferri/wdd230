@@ -25,4 +25,10 @@
         grid-template-columns: 1fr 1fr 1fr;
         column-gap: 10px;
     }
+
+    @media only screen and (min-width: 45rem) {
+        .list section {
+            display: flex;
+        }
+    }
 }

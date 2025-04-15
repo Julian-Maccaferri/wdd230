@@ -197,3 +197,87 @@ section ul a {
 h4 {
     margin: 0.25rem 0;
 }
+
+.menu {
+	margin: 1rem auto;
+	border: 1px solid rgba(0, 0, 0, 0.1);
+	padding: 0.5rem;
+	background-color: #ddd;
+	text-align: center;
+    max-width: 90%;
+}
+
+.menu button {
+    margin: 0 0.5rem;
+	padding: 1rem;
+	font-weight: 700;
+
+}
+
+#cards {
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin: 1rem auto;
+    padding: 1rem;
+    max-width: 90%;
+}
+
+section.card {
+    border: 1px solid #ccc;
+    background-color: #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    margin: 0.5rem 0;
+    padding: 1rem;
+}
+
+section h2 {
+    padding-bottom: 1rem;
+}
+
+section p {
+    padding: 0.25rem;
+}
+
+section img {
+    margin: 0.5rem auto;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+
+/* Estilo en modo lista */
+.list {
+    display: block;
+    width: 100%;
+}
+
+.list section {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #ccc;
+    padding: 0.5rem 1rem;
+    margin: 0;
+}
+
+.list section img {
+    display: none;
+}
+
+.list section h2 {
+    font-size: 1rem;
+    flex: 1;
+}
+
+.list section p {
+    font-size: 0.9rem;
+    margin: 0 0.5rem;
+    flex: 2;
+}
+
+.list section:nth-child(even) {
+    background-color: #f9f9f9;
+}
