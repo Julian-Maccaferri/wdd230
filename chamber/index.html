@@ -80,10 +80,13 @@
 
             <section class="card">
                 <span>Weather</span>
-                <p>Rosario, Argentina</p>
-                <p>27 ºC - Sunshine</p>
-                <p>Humidity: 37%</p>
-                <p>Wind Chill: N/A</p>
+                <p id="current-temp"></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="Weather icon" width="50" height="50" loading="lazy">
+                    <figcaption></figcaption>
+                </figure>
+                <p id="forecast"></p>
+                <p id="visitCount"></p>
             </section>
         </div>
         <div class="advertisement">
@@ -117,6 +120,8 @@
     </footer>
     <script src="../scripts/getDates.js" defer></script>
     <script src="../scripts/hamburguerButton.js" defer></script>
+    <script src="../scripts/visitCounter.js" defer></script>
+    <script src="scripts/chamberWeather.js" defer></script>
 
 </body>
 
