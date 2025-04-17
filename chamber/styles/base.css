@@ -241,6 +241,12 @@ section.card {
     padding: 1rem;
 }
 
+#weather p{
+    text-align: center;
+    font-size: 1.1rem;
+    padding-top: 1rem;
+}
+
 section h2 {
     padding-bottom: 1rem;
 }

@@ -22,7 +22,7 @@ function displayCurrentWeather(data) {
     const description = data.weather[0].description;
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
 
-    currentTemp.innerHTML = `Rosario: ${temp}&deg;C`;
+    currentTemp.innerHTML = `<strong>Rosario</strong>: ${temp}&deg;C`;
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('alt', description);
     captionDesc.textContent = `${description}`;
