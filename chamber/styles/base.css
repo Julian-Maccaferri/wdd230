@@ -19,6 +19,10 @@ footer {
     align-items: center;
 }
 
+footer {
+    background-color: #1470c0;
+}
+
 header {
     font-size: 1.5rem;
 }
@@ -164,6 +168,13 @@ h1 {
     padding: 10px;
 }
 
+.information h4 {
+    margin-top: 1rem;
+    padding-left: 0.5rem;
+    font-size: 1.25rem;
+    text-align: left;
+}
+
 .information p {
     padding: 0.5rem;
     text-align: left;
@@ -224,7 +235,6 @@ h4 {
 
 section.card {
     border: 1px solid #ccc;
-    background-color: #ddd;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     overflow: hidden;
     margin: 0.5rem 0;
@@ -281,3 +291,95 @@ section img {
 .list section:nth-child(even) {
     background-color: #f9f9f9;
 }
+
+.spotlight {
+    text-align: center;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.spotlight h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+#spotlight-container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.spotlight-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 1rem;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.spotlight-card img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 1rem;
+}
+
+.spotlight-card h3 {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+}
+
+.spotlight-card a {
+    color: #1470c0;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.spotlight-card a:hover {
+    text-decoration: underline;
+}
+
+/* Banner styles */
+.banner {
+    display: flex;
+    max-width: 400px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1470c0;
+    color: white;
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.banner p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.banner button {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.banner button:hover {
+    color: #ffcccc;
+}
+
+.hidden {
+    display: none;
+}
+
+
